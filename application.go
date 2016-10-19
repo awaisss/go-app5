@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @awaisss
- Unwatch 1
-  Star 0
- Fork 0 awaisss/golang-app2
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
-Branch: master Find file Copy pathgolang-app2/application.go
-f0f30d4  3 hours ago
-@awaisss awaisss Updates
-1 contributor
-RawBlameHistory     
-70 lines (59 sloc)  2.02 KB
 
 package main
  
@@ -85,5 +68,3 @@ func main() {
     router.HandleFunc("/people/{id}", DeletePersonEndpoint).Methods("DELETE")
     log.Fatal(http.ListenAndServe(":3000", router))
 }
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
